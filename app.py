@@ -10,7 +10,7 @@ import geopandas as gpd
 # ==========================================
 # 1. CONFIGURACIÓN DE PÁGINA
 # ==========================================
-st.set_page_color(page_title="APEX - Inteligencia Territorial", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="APEX - Inteligencia Territorial", layout="wide", initial_sidebar_state="expanded")
 
 st.markdown("""
     <style>
